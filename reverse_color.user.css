@@ -1,0 +1,8 @@
+/* ==UserStyle==
+@name           reverse coloring 
+@namespace      https://raw.githubusercontent.com/xXkiluxkiluXx/niconico_useful_css/master/easycomment_delete.css
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+*{filter:hue-rotate(90deg);}
