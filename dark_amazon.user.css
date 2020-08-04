@@ -1,0 +1,62 @@
+/* ==UserStyle==
+@name dark amazon by ez
+@namespace https://raw.githubusercontent.com/xXkiluxkiluXx/niconico_useful_css/master/name.user.css
+@version 1.0.0
+@description A new userstyle
+@author ez
+==/UserStyle== */
+@-moz-document regexp(".*amazon.*") {
+#navFooter {
+	display: none
+}
+#navbar[data-template=layoutSwapToolBar].layout2 #nav-logo .nav-prime-try {
+	display: none
+}
+#navbar[data-template=layoutSwapToolBar].layout2.bold-focus-hover #nav-tools #nav-link-prime,
+#tell-a-friend {
+	display: none
+}
+.a-spacing-mini, .a-ws .a-ws-spacing-mini {
+	display: none
+}
+#gw-card-layout, #gw-layout {
+	display: none
+}
+
+/*colors*/
+#navbar.nav-bluebeacon #nav-search-label, #navbar.nav-bluebeacon .nav-a-2 .nav-line-1, #navbar.nav-bluebeacon .nav-a-2 .nav-line-2 {
+	color: #be8dbd
+}
+.nav-left, .nav-right, .nav-fill, #nav-subnav, .nav-a {
+	background-color: #000;
+	color: #d8d6f3
+}
+a.nav-a, a.nav-a:link, a.nav-a:visited {
+	background-color: #191615;
+	color: #999aaf!important;
+}
+}
+
+@-moz-document regexp(".*amazon.*s?k=.*") {
+/* 検索 */
+div.sg-col-4-of-32.sg-col-4-of-20.sg-col.AdHolder.sg-col-4-of-16, .rush-component > .s-latency-cf-section.s-border-bottom.s-include-content-margin, div.s-widget.s-flex-full-width.s-result-item.a-spacing-none.a-section:nth-of-type(1) {
+	display: none
+}
+.celwidget.sb_37u_8SFq.sb_ZcnsR4zE > .sb_1LIJTce6 > .sb_UXyQgY3h.sb_Es4IY3ln.sb_1REHiRA7{display:none;}
+#rhf .rhf-border,.s-desktop-content{background-color:#191615;}
+h2,.a-color-base{color:#fff!important}
+a, a:active, a:link, a:visited{background-color:#191615;color:#f5f5ae;}
+.a-text-normal span{color: #d8d6f3;}
+.s-desktop-toolbar{background-color: #2e2f39}
+list, li{background-color:#191615; }
+.a-dropdown-common .a-dropdown-link{color:#f8d2d2;}
+}
+
+@-moz-document regexp(".*amazon.*/dp/.*") {
+div#sims-fbt {
+	display: none
+}
+.cr-vote-action-bar {
+	display: none
+}
+}
