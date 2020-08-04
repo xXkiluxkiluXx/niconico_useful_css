@@ -1,0 +1,48 @@
+/* ==UserStyle==
+@name ぬこぬこ
+@namespace https://raw.githubusercontent.com/xXkiluxkiluXx/niconico_useful_css/master/nukonuko_life.user.css
+@version 1.0.0
+@description A new userstyle
+@author ez
+==/UserStyle== */
+@-moz-document regexp(".*://live2\\.nicovideo\\.jp/watch/lv.*") {
+#akashic-gameview > div > div:nth-child(2),
+.___command-tool___27LfK,
+.___program-recommend-tab___3C5sf,
+___conductor___3B0NE ___conductor___2AD9L,
+.___ichiba-counter___15Yri,
+.___premium-merit-appeal-banner___1KEdB,
+.___app-download-banner___3tmZG ,___app-download-banner___SDCFP,
+.___menu-dock___2uccH,
+.___page-footer-area___oZ-B0
+{display:none}
+}
+
+@-moz-document regexp(".*://www\\.nicovideo\\.jp/watch/sm.*") {
+.SeekBarStoryboardPremiumLink, 
+.IchibaContainer.Card-main,
+.BottomContainer,
+.FooterContainer-information,
+.FooterContainer-additionals,
+.VideoMenuContainer-areaLeft,
+.VideoContainer .PreVideoStartPremiumLinkContainer,
+.VideoMenuContainer,
+.FooterContainer-pageTop,
+#siteHeader #siteHeaderInner #siteHeaderNotification:not(.siteHeaderPremium) a.siteHeaderUpgrade,
+#siteHeader #siteHeaderInner ul li#siteHeaderNotification .siteHeaderNicopo a.siteHeaderNicopoPurchase,
+.GenreRankMeta,
+.CommentPostContainer-commandInput,
+.HeaderContainer-searchBox,
+.MarqueeContainer
+{display:none;}
+.HeaderContainer,body{background-color:#212121; color:#ffffff9c; mix-blend-mode:normal;}
+.TagList .TagItem{background-color:#000c;}
+.TagItem-name{color:#c6e5ea}
+.MainContainer-playerPanel,.PlayerPanelContainer-content{background-color:#000c;color:#000}
+.CommentPanelDataGrid .CommentPanelDataGrid-TableCell{background-color:#000c;color:#fffc}
+.CommentPanelMenuContainer,.PlayerPanelContainer-tab{background-color:#000d; color:#fffc;}
+.DataGrid-HeaderTable,.DataGrid-Header,.CommentPanelDataGrid .CommentPanelDataGrid-HeaderCell{background-color:#000c; color:#fffe;}
+.VideoTitle{color:#ffffffe6}
+.MainContainer-player,canvas{background-color:#0000!important}
+.HeaderContainer{margin-top:26px;}
+}
