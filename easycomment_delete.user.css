@@ -7,5 +7,5 @@
 ==/UserStyle== */
 
 @-moz-document regexp(".*://.*.nicovideo.jp/watch/(lv|sm)[0-9]*") {
-.EasyCommentContainer-easyComments{display:none}
+.EasyCommentContainer{display:none}
 }
