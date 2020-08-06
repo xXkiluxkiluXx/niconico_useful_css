@@ -46,3 +46,8 @@ ___conductor___3B0NE ___conductor___2AD9L,
 .MainContainer-player,canvas{background-color:#0000!important}
 .HeaderContainer{margin-top:26px;}
 }
+
+.ControllerBoxCommentAreaContainer {
+    border-right: 1px solid #ddd;
+    background: #212121b;
+}
