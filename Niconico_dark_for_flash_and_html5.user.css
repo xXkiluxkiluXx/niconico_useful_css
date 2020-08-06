@@ -351,3 +351,7 @@ bottom:0!important
     height: auto !important;
   }
 }
+.VideoDescriptionExpander .VideoDescriptionExpander-switchExpand {
+    padding-left: 24px;
+    background: #4440!important;
+}
