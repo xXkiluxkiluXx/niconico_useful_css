@@ -1,11 +1,11 @@
 /* ==UserStyle==
 @name           niconico easycomment delete
 @namespace      https://raw.githubusercontent.com/xXkiluxkiluXx/niconico_useful_css/master/easycomment_delete.css
-@version        1.0.2
+@version        1.0.3
 @description    A new userstyle
 @author         Me
 ==/UserStyle== */
 
-@-moz-document regexp(".*://.*.nicovideo.jp/watch/(lv|sm)[0-9]*.*") {
+@-moz-document regexp(".*://.*.nicovideo.jp/watch/(lv|sm)[0-9]+.*") {
 .EasyCommentContainer{display:none}
 }
