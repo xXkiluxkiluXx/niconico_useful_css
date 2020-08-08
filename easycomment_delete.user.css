@@ -6,6 +6,6 @@
 @author         Me
 ==/UserStyle== */
 
-@-moz-document regexp(".*://.*.nicovideo.jp/watch/(lv|sm)[0-9]*") {
+@-moz-document regexp(".*://.*.nicovideo.jp/watch/(lv|sm)[0-9]*.*") {
 .EasyCommentContainer{display:none}
 }
