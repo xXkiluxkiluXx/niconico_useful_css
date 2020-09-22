@@ -5,7 +5,7 @@
 @description A new userstyle
 @author ez
 ==/UserStyle== */
-@-moz-document regexp("https://www.nicovideo.jp/watch/(iv|sm)[0-9]+.") {
+@-moz-document url-prefix("https://www.nicovideo.jp/watch/") {
 /* 消去する要素 */
   #videoDetailInformation, #playlist, #textMarquee, #searchResultExplorer, #playerCommentPanelOuter, #ichibaPanel,
   #leftPanel, #appliPanel, #searchResultExplorerContentWrapper, #searchResultExplorerExpand, #videoExplorerExpand, #pageFooter, #wallImageContainer,
@@ -21,19 +21,19 @@
   #ncenq-notification.ncenq-notification-bar-narrow .wp .ctt, .MiniBannerAdContainer, #ncenq-notification.ncenq-notification-bar-narrow{
     display: none !important;
   }
- 
-	html,body,div,h1,.h3,h4,h5,h6,p,blockquote,pre,table,th,tr,td,ul,ol,li,dl,dt,dd,form,fieldset,legend,hr,span,a,img,strong,em,
-ins,del,cite,abbr,acronym,sup,sub,dfn,code,var,samp,kbd,b,i, .DropDownMenu{
+  /* 文字設定 */
+  html,body,div,h1,.h3,h4,h5,h6,p,blockquote,pre,table,th,tr,td,ul,ol,li,dl,dt,dd,form,fieldset,legend,hr,span,a,img,strong,em,
+  ins,del,cite,abbr,acronym,sup,sub,dfn,code,var,samp,kbd,b,i, .DropDownMenu{
     font-weight:800;
     font-family:'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     text-decoration: none;
     color: #ccc !important; 
     border: inset 0px #222742 !important;
-}
-html, body, .ReactGridCellContent:hover, .ActionButton{
-  background: #1b1b1b !important;
-}
-/* HTML5版 */
+  }
+  html, body, .ReactGridCellContent:hover, .ActionButton{
+    background: #1b1b1b !important;
+  }
+/* 動画説明欄などを下に移動(HTML5版) */
 .WatchAppContainer-main {
 display:flex!important;
 flex-direction:column
@@ -356,52 +356,7 @@ bottom:0!important
     background: #4440!important;
 }
 
-@-moz-document regexp("https://www.nicovideo.jp/(search|tag)/.*") {	html,body,div,h1,.h3,h4,h5,h6,p,blockquote,pre,table,th,tr,td,ul,ol,li,dl,dt,dd,form,fieldset,legend,hr,span,a,img,strong,em,
-ins,del,cite,abbr,acronym,sup,sub,dfn,code,var,samp,kbd,b,i, .DropDownMenu{
-    font-weight:800;
-    font-family:'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
-    text-decoration: none;
-    color: #ccc ; 
-    border: inset 0px #222742 ;
+.PlayerPanelContainer, .CommentPanelDataGrid .CommentPanelDataGrid-HeaderCell, .CommentPanelDataGrid .CommentPanelDataGrid-TableCell{
+	border: inset 1px #a0abe9 !important;
+	background-color: #444;
 }
-	.container ,.tagCaption{
-    	background:#272727;
-	}
-	.column700-300 .sub {
-    	background:#1b1b1b;
-		color:#444;
-	}
-	.videoList01 .itemContent .itemTitle a:link {
-		color: #d2601e;
-	} .videoList01 .itemContent .itemTitle a:visited {
-		color: #8c4b1b;
-	}
-	.videoList01 .itemContent .itemTitle a:hover {
-		color: #dd2200;
-	}
-	.nicopedia .itemDescription, .videoList01 .itemContent .itemDescription, .video .itemTime{
-		color:#bbb;
-	}
-	.nicopedia .supplement, .video .itemData .count .value a, .video .itemData .count .value{
-		color:#ddd;
-	}
-	.formSearch {
-		border: 2px solid #666070;
-		background: -webkit-linear-gradient(#000, #262020) left repeat;
-		background: linear-gradient(#000, #262020) left repeat;
-		box-shadow: 0 0 0 1px #100707;
-	}
-	.header {
-		display:none;
-	}
-	.videoList01 .itemContent .itemComment {
-		color: #fff;
-		border: #dbdbdb solid 2px;
-		background-color: #000;
-	}
-	.button.default {
-    border: #333 solid 2px;
-    background-color: #000;
-    color: #666;
-	}
-} 
