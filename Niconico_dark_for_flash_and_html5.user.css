@@ -360,3 +360,6 @@ bottom:0!important
 	border: inset 1px #a0abe9 !important;
 	background-color: #444;
 }
+.NicoruCell, .CommentPanelContainer .CommentPanelDataGrid-TableCell[data-name=nicoru], .CommentPanelDataGrid-HeaderCell[data-name=nicoru]{
+	display:none;
+}
