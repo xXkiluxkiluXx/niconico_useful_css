@@ -2,7 +2,7 @@
 @name           reverse coloring 
 @namespace      https://raw.githubusercontent.com/xXkiluxkiluXx/niconico_useful_css/master/invert_color.user.css
 @version        1.0.0
-@description    A new userstyle
-@author         Me
+@description    Color inverter
+@author         EZ
 ==/UserStyle== */
 *{filter:invert(1);}
