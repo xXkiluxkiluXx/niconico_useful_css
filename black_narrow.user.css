@@ -1,0 +1,48 @@
+ /* ==UserStyle==
+ @name           black narrow
+ @namespace      https://raw.githubusercontent.com/xXkiluxkiluXx/niconico_useful_css/master/black_narrow.user.css
+ @version        1.0.0
+ @description    darkmode syosetu.com
+ @author         ez
+ ==/UserStyle== */
+@-moz-document regexp("https:\\/\\/ncode\\.syosetu\\.com/.*/") {
+.toaster {
+    margin: 0 auto;
+    padding: 10px;
+    color: #000;
+    border-radius: 5px;
+    max-width: 500px;
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    transform: translate(-50%,-50%);
+    left: 50%;
+}
+.toaster.bookmarker_addend {
+    background: rgba(231, 72, 250, .8);
+}
+*, .contents1, #novel_attention ,#impression, #review, .recommend_novel, #recommend , ul.reco li.genre, #footer,.wrap_menu_novelview_after, .footerbookmark li.booklist_now a, .p-novelpoint-form{
+    font-size: 14px;
+    background: #212121;
+    color: #e3d3c1;
+}
+ul#head_nav li.booklist_now a, li,  #novel_header{
+    font-size: 14px;
+    background: #000;
+    color: #e3d3c1;
+}
+a {
+    text-decoration: none;
+    color: #6781d0;
+    outline: none;
+}
+}
+
+@-moz-document url("https://syosetu.com/user/top/"), url("https://syosetu.com/") {
+* {
+	background:#fff;
+}
+body{filter: invert(0.96);}
+.l-slider{display:none;}
+
+}
