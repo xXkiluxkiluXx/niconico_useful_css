@@ -363,3 +363,37 @@ bottom:0!important
 .NicoruCell, .CommentPanelContainer .CommentPanelDataGrid-TableCell[data-name=nicoru], .CommentPanelDataGrid-HeaderCell[data-name=nicoru]{
 	display:none;
 }
+@-moz-document regexp("https://novelcom.syosetu.com/.*") {
+#container{
+    background-color:#1d0101;
+        color:#e9e4ff;
+}
+.waku {
+    border: 1px solid #9b77ff;
+    margin: 10px 0 20px 0;
+    padding: 10px 20px;
+}
+.comment_h2 {
+    margin: 5px 0 10px 0;
+    padding: 0 0 0 10px;
+    border-top: 2px solid #a30000;
+    font-size: 90%;
+    background: #321111;
+}
+.p-quick-setting__label {
+    font-weight: 600;
+    padding: 5px 10px;
+    color: #789e9e;
+}
+#novel_header{
+    background:#000;
+}
+ul#head_nav li:visited a:visited {
+    text-decoration: none;
+    color: #6781d0;
+    outline: none;
+}
+ul#head_nav li a {
+    color: #885577;
+}
+}
