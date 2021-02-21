@@ -149,3 +149,6 @@ a:visited,h1:visited,h2:visited,h3:visited,h4:visited,h5:visited{
 
 }
 }
+@-moz-document regexp("https://syosetu.com") {
+ *{filter:invert(0.95);}
+}
