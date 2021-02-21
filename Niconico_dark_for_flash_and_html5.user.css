@@ -18,7 +18,7 @@
   #playerAlignmentArea.size_normal #playerContainer.controll_panel #playerTabWrapper,.messageContainer,.lastResBody, .performanceAlert, .horror2016, 
   .WatchAppContainer-switchToFlash, .UadButtonBalloon, .IchibaContainer, .GridCell BottomContainer-side, .FeedbackLinkContainer,
   .BottomContainer-card, .NicoSpotAdContainer, .OwnerNicoliveBannerContainer, .html5_message, .nicoliveNotification.onair,
-  #ncenq-notification.ncenq-notification-bar-narrow .wp .ctt, .MiniBannerAdContainer, #ncenq-notification.ncenq-notification-bar-narrow{
+  #ncenq-notification.ncenq-notification-bar-narrow .wp .ctt, .MiniBannerAdContainer, #ncenq-notification.ncenq-notification-bar-narrow,.SeekBarContainer .SeekBar .SeekBarStoryboard, .SeekBarContainer .SeekBar .SeekBarTimeTip, .SeekBarContainer .SeekBar .StoryboardLine{
     display: none !important;
   }
   /* 文字設定 */
