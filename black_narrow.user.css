@@ -39,12 +39,70 @@ a {
 }
 
 @-moz-document url("https://syosetu.com/user/top/"), url("https://syosetu.com/") {
-* {
-	background:#fff;
+#container{
+    color:black
 }
-body{filter: invert(0.96);}
-.l-slider{display:none;}
+#favnovel, #container,#body{
+    background:#252525!important;
+    
+}
+#contents,#header{
+    background:#292929;
+}
+#extra{
+    background:#292929;
+}
+ul#head_nav li a,.p-quick-setting__label{
+    color:#e4e4e4;
+}
+a,h1,h2,h3,h4,h5,span,a:-webkit-any-link, dd{
+    color:#99a8b6;
+}
+a:visited,h1:visited,h2:visited,h3:visited,h4:visited,h5:visited,span:visited,a:-webkit-any-link:visited{
+    color:#b1969b
+}
+#pd_box h3{
+    color:#FFF;
+    background:#787878
+}
+.normal_box{
+    margin: 10px 0 0px 0;
+    padding: 10px 10px;
+    border: ridge 5px #c0c0c0;
+    width: auto !important;
+    clear: both!important;
+    border-radius: 1.2em / 1em;
+    box-shadow: 0.5em 5px 8px rgb(24, 17, 25);
+    
+}
+.normal_box h3{
+    color:#fff;
+}
 
+.favnovel_list .favnovel_title{
+    color:#c2c2c2;
+}
+.res{
+    background:#2c3026;
+}
+.comment_h2 {
+    margin: 5px 0 10px 0;
+    padding: 0 0 0 10px;
+    border-top: 2px solid #6e6f8f;
+    font-size: 90%;
+    background: #000;
+    color:#fff;
+}
+#user_info {
+    margin: 10px 0 0px 0;
+    padding: 10px 0px;
+    border: ridge 3px #c0c0c0;
+    width: auto !important;
+    clear: both!important;
+    border-radius: 1.2em / 1em;
+    box-shadow: 0.5em 5px 8px rgb(24, 17, 25);
+
+}
 }
 @-moz-document regexp("https://novelcom.syosetu.com/.*") {
 #container{
