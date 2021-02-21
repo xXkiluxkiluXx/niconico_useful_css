@@ -1,4 +1,7 @@
 # niconico_useful_css
+便利なCSSの集めものです。
+基本的にNiconicoのCSSばっか作ってたのでこんなリポジトリになってますが、Niconicoのほうが少なくなりました。
+各ファイルのRawを見ていただければ、Stylusを入れている人はインストールに飛びます。
 
 ## template
 ```css
