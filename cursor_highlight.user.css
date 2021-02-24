@@ -8,7 +8,7 @@
  
 @-moz-document regexp(".*") {
     
-li:hover, h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, table:hover, th:hover, td:hover, embed:hover, object:hover{
+a:hover, textarea:hover,li:hover, h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, table:hover, th:hover, td:hover, embed:hover, object:hover{
         filter:invert(0.9);
     }    
 }
