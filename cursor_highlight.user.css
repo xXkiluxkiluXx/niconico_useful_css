@@ -1,0 +1,14 @@
+/* ==UserStyle==
+ @name           cursor_highlight
+ @namespace      https://raw.githubusercontent.com/xXkiluxkiluXx/niconico_useful_css/master/curs\our_highlight.user.css
+ @version        1.0.0
+ @description    if you got cursor on a object such as button, linnk or picture,we invert it darker or lighter.
+ @author         ez
+ ==/UserStyle== */
+ 
+@-moz-document regexp(".*") {
+    
+li:hover, h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, table:hover, th:hover, td:hover, embed:hover, object:hover{
+        filter:invert(0.9);
+    }    
+}
