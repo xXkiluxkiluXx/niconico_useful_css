@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           dark 5ch
 @namespace      https://raw.githubusercontent.com/xXkiluxkiluXx/niconico_useful_css/master/Dark_5ch.user.css
-@version        1.0.0
+@version        1.0.1
 @description    A new userstyle
 @author         Me
 ==/UserStyle== */
@@ -925,8 +925,7 @@ customized by h1j1k1
 	background-color: #000 !important;
 }
 .container_body {
-    width: none !important;
-    margin-right: nonepx !important;
+    margin-right: 0px !important;
 }
 }
 
